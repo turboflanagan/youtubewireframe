@@ -45,3 +45,20 @@ body{
 #favorites ul li a{
 	color:black;
 }
+
+#modal-image img {
+	width: 100%;
+}
+#video-holder{
+	float: left;
+	width:56%;
+	padding:2%;
+}
+.suggested-videos{
+	float:left;
+	width:15%;
+}
+.summary{
+	float:left;
+	width: 29%
+}
