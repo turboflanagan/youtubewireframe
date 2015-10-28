@@ -1,0 +1,47 @@
+body{
+	width: 100%;
+	margin:0;
+	padding:0;
+}
+.container{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+#logo-holder{
+	width: 100%;
+}
+#logo-holder img{
+	width:100%;
+}
+#search-field{
+	margin-top:35px;
+}
+#search-form{
+	width: 70%;
+}
+#video-links{
+	padding-left: 0 !important;
+}
+#video-links li{
+	list-style: none;
+	float:left;
+	text-align: left;
+	padding-right: 15px;
+}
+#video-links li a{
+	color:black;
+}
+#login{
+	margin-top:35px;
+	margin-right: 69px;
+	text-align: right;
+}
+#favorites ul li{
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+#favorites ul li a{
+	color:black;
+}
