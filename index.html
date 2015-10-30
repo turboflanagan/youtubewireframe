@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
+	<title>YouTube Wireframe</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -63,23 +63,17 @@
 						</div>
 						<div class="summary" id="summary-0"></div>
 					</div>
-
 					<div class="suggested-videos-inner-wrapper">
 						<div class="suggested-videos" id="suggested-videos-1"></div>
 						<div class="summary" id="summary-1"></div>
 					</div>
-
 					<div class="suggested-videos-inner-wrapper">
 						<div class="suggested-videos" id="suggested-videos-2"></div>
 						<div class="summary" id="summary-2"></div>
 					</div>
-
 				</div>
-
 			</div>
-
 			<div class="col-xs-4">
-
 				<div id="ad-wrapper">
 					<div id="modal-image">
 						<img data-toggle="modal" data-target="#myModal" src="3dprinter.jpg">
@@ -106,11 +100,43 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
 				</div>
-
 			</div>
+		</div><!-- End Row-->
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-primary btn-lg add-video" data-toggle="modal" data-target="#myModal2">
+		  Add Video
+		</button>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title" id="myModalLabel">Add your favorite videos!</h4>
+		      </div>
+		      <div class="modal-body">	        
+		      	<form id="form-submit">
+				  <div class="form-group">
+				    <label >Title</label>
+				    <input type="text" class="form-control" id="title" placeholder="Title">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputPassword1">Thumbnail Link</label>
+				    <input type="text" class="form-control" id="thumb" placeholder="Thumbnail URL">
+				  </div>
+				  <div class="form-group">
+				    <label for="exampleInputFile">Video URL</label>
+				    <input type="text" class="form-control" id="url" placeholder="Video URL">
+				  </div>		  
+				  <button type="submit"  class="add-video-button btn btn-default " >Add Your Video</button>
+				</form>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="row" id="more-videos">
 
 		</div>
 	</div> <!-- End Container-->
-	
 </body>
 </html>
