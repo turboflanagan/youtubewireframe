@@ -67,7 +67,7 @@ var otherVideos = [
 
 var videosBySamePoster = [
 	{
-	    title: "StarCraft II: Legacy of the Void Opening Cinematic",
+	    title: "Legacy of the Void",
 	    thumb: "https://i.ytimg.com/vi_webp/M_XwzBMTJaM/default.webp",
 	    url: "https://www.youtube.com/watch?v=M_XwzBMTJaM",
 	    duration: "29:51",
@@ -75,7 +75,7 @@ var videosBySamePoster = [
 	    totalViews: 3927195
 	},
 	{
-	    title: "Legacy of the Void Prologue - Whispers of Oblivion",
+	    title: "Whispers of Oblivion",
 	    thumb: "https://i.ytimg.com/vi/2qJgSR7C2FM/default.jpg",
 	    url: "https://www.youtube.com/watch?v=2qJgSR7C2FM",
 	    duration: "3:19",
@@ -83,7 +83,7 @@ var videosBySamePoster = [
 	    totalViews: 640699
 	},
 	{
-	    title: "StarCraft II - Protoss Overview",
+	    title: "Protoss Overview",
 	    thumb: "https://i.ytimg.com/vi/m0g0MpllFCs/default.jpg",
 	    url: "https://www.youtube.com/watch?v=m0g0MpllFCs",
 	    duration: "3:36",

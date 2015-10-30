@@ -4,6 +4,7 @@ body{
 	width: 100%;
 	margin:0;
 	padding:0;
+	line-height: 1;
 }
 .container{
 	
@@ -76,23 +77,30 @@ body{
 }
 #video-holder{
 	float: left;
-	width:56%;
-	padding:2%;
+	padding: 2% 2% 0 0;
 }
 .suggested-videos-inner-wrapper{
 	margin-top: 25px;
+	padding: 0;
 }
 .suggested-videos{
 	float:left;
-	width:15%;
+	width:65%;
+	padding: 0px;
+	border: 1px solid;
 }
 .suggested-videos img{
 	width: 100%;
 }
 .summary{
 	float:left;
-	width: 29%
+	width: 100%;
+	padding: 0px;
+	border: 1px solid;
 }
 .summary p{
 	margin-bottom: 0;
+}
+#suggested-videos-wrapper{
+	padding: 0;
 }

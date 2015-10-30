@@ -3,16 +3,17 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  line-height: 1;
 }
 
-/* line 8, compass/sass/styles.scss */
+/* line 9, compass/sass/styles.scss */
 .container {
   padding: 0;
   width: 90%;
   margin: auto;
 }
 
-/* line 15, compass/sass/styles.scss */
+/* line 16, compass/sass/styles.scss */
 #header-tab {
   padding-top: 35px;
   padding-bottom: 8px;
@@ -20,48 +21,48 @@ body {
   margin: 0px -15px;
 }
 
-/* line 21, compass/sass/styles.scss */
+/* line 22, compass/sass/styles.scss */
 .heading {
   border-bottom: 2px solid black;
   margin-bottom: 25px;
 }
 
-/* line 25, compass/sass/styles.scss */
+/* line 26, compass/sass/styles.scss */
 #logo-holder {
   width: 100%;
 }
 
-/* line 28, compass/sass/styles.scss */
+/* line 29, compass/sass/styles.scss */
 #logo-holder img {
   width: 100%;
 }
 
-/* line 31, compass/sass/styles.scss */
+/* line 32, compass/sass/styles.scss */
 .search-box {
   margin-top: 35px;
 }
 
-/* line 34, compass/sass/styles.scss */
+/* line 35, compass/sass/styles.scss */
 #search-field {
   margin-top: 35px;
 }
 
-/* line 37, compass/sass/styles.scss */
+/* line 38, compass/sass/styles.scss */
 #search-form {
   width: 70%;
 }
 
-/* line 40, compass/sass/styles.scss */
+/* line 41, compass/sass/styles.scss */
 .account-box {
   margin-top: 35px;
 }
 
-/* line 43, compass/sass/styles.scss */
+/* line 44, compass/sass/styles.scss */
 #video-links {
   padding-left: 0 !important;
 }
 
-/* line 46, compass/sass/styles.scss */
+/* line 47, compass/sass/styles.scss */
 #video-links li {
   list-style: none;
   float: left;
@@ -69,12 +70,12 @@ body {
   padding-right: 15px;
 }
 
-/* line 52, compass/sass/styles.scss */
+/* line 53, compass/sass/styles.scss */
 #video-links li a {
   color: black;
 }
 
-/* line 55, compass/sass/styles.scss */
+/* line 56, compass/sass/styles.scss */
 #login {
   margin-top: 35px;
   margin-right: 10px;
@@ -83,58 +84,67 @@ body {
   width: 100%;
 }
 
-/* line 62, compass/sass/styles.scss */
+/* line 63, compass/sass/styles.scss */
 #favorites ul li {
   list-style: none;
   float: right;
   margin-right: 10px;
 }
 
-/* line 67, compass/sass/styles.scss */
+/* line 68, compass/sass/styles.scss */
 #favorites ul li a {
   color: black;
 }
 
-/* line 71, compass/sass/styles.scss */
+/* line 72, compass/sass/styles.scss */
 #modal-image img {
   width: 100%;
 }
 
-/* line 74, compass/sass/styles.scss */
+/* line 75, compass/sass/styles.scss */
 .video-well {
   background: #ebebeb;
 }
 
-/* line 77, compass/sass/styles.scss */
+/* line 78, compass/sass/styles.scss */
 #video-holder {
   float: left;
-  width: 56%;
-  padding: 2%;
+  padding: 2% 2% 0 0;
 }
 
 /* line 82, compass/sass/styles.scss */
 .suggested-videos-inner-wrapper {
   margin-top: 25px;
+  padding: 0;
 }
 
-/* line 85, compass/sass/styles.scss */
+/* line 86, compass/sass/styles.scss */
 .suggested-videos {
   float: left;
-  width: 15%;
+  width: 65%;
+  padding: 0px;
+  border: 1px solid;
 }
 
-/* line 89, compass/sass/styles.scss */
+/* line 92, compass/sass/styles.scss */
 .suggested-videos img {
   width: 100%;
 }
 
-/* line 92, compass/sass/styles.scss */
+/* line 95, compass/sass/styles.scss */
 .summary {
   float: left;
-  width: 29%;
+  width: 100%;
+  padding: 0px;
+  border: 1px solid;
 }
 
-/* line 96, compass/sass/styles.scss */
+/* line 101, compass/sass/styles.scss */
 .summary p {
   margin-bottom: 0;
+}
+
+/* line 104, compass/sass/styles.scss */
+#suggested-videos-wrapper {
+  padding: 0;
 }
