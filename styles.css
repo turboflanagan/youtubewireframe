@@ -1,5 +1,5 @@
 body{
-	width: 100%;
+	max-width: 1080px;
 	margin:0;
 	padding:0;
 }
@@ -62,17 +62,21 @@ body{
 	width: 100%;
 }
 .video-well{
-	background: #ebebeb;
+	background: #ccc;
+	padding-top:3%;
+	overflow: hidden;
+	border:2px solid black;
 }
 #video-holder{
 	float: left;
-	width:56%;
+	width:60%;
 	padding:2%;
 }
 #suggested-videos-wrapper{
-	width:44%;
+	width:40%;
 	height: 400px;
 	float: left;
+	padding-top:3%;
 }
 .suggested-videos-inner-wrapper{
 	/*margin-top: 25px;*/
@@ -84,6 +88,7 @@ body{
 .suggested-videos{
 	float:left;
 	width:48%;
+	background-color: black;
 }
 .suggested-videos img{
 	width: 100%;
@@ -97,14 +102,20 @@ body{
 	margin-bottom: 0;
 	font-size: .7em;
 }
+#more-videos{
+	background-color: #ebebeb;
+	border: 2px solid black;
+	padding:2% 2% 0% 2%;
+}
 #small{
 	width: 25%;
 	float: left;
+	margin-bottom:4%;
 }
 .small-vids{
 	float: left;
 	width: 48%;
-	margin:1%;
+	margin-right:2%;
 	background-color: black;
 }
 .small-vids img{
