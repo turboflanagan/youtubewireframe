@@ -1,96 +1,140 @@
-body{
-	width: 100%;
-	margin:0;
-	padding:0;
+/* line 3, compass/sass/styles.scss */
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.container{
-	
-	padding:0;
-	width:90%;
-	margin:auto;
 
+/* line 8, compass/sass/styles.scss */
+.container {
+  padding: 0;
+  width: 90%;
+  margin: auto;
 }
+
+/* line 15, compass/sass/styles.scss */
 #header-tab {
-	padding-top: 40px;
-	padding-bottom: 8px;
-	border-bottom: 2px solid black;
-	margin: 40 -15px 0;  
-}
-.heading{
-	border-bottom: 2px solid black;
-	margin-bottom:25px;
-}
-#logo-holder{
-	width: 100%;
-}
-#logo-holder img{
-	width:100%;
-}
-.search-box{
-	margin-top:35px;
-}
-#search-field{
-	margin-top:35px;
-}
-#search-form{
-	width: 70%;
-}
-.account-box{
-	margin-top: 35px;
-}
-#video-links{
-	padding-left: 0 !important;
-}
-#video-links li{
-	list-style: none;
-	float:left;
-	text-align: left;
-	padding-right: 15px;
-}
-#video-links li a{
-	color:black;
-}
-#login{
-	margin-top:35px;
-	margin-right: 10px;
-	text-align: right;
-	float:right;
-	width: 100%;
-}
-#favorites ul li{
-	list-style: none;
-	float: right;
-	margin-right: 10px;
-}
-#favorites ul li a{
-	color:black;
+  padding-top: 35px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid black;
+  margin: 0px -15px;
 }
 
+/* line 21, compass/sass/styles.scss */
+.heading {
+  border-bottom: 2px solid black;
+  margin-bottom: 25px;
+}
+
+/* line 25, compass/sass/styles.scss */
+#logo-holder {
+  width: 100%;
+}
+
+/* line 28, compass/sass/styles.scss */
+#logo-holder img {
+  width: 100%;
+}
+
+/* line 31, compass/sass/styles.scss */
+.search-box {
+  margin-top: 35px;
+}
+
+/* line 34, compass/sass/styles.scss */
+#search-field {
+  margin-top: 35px;
+}
+
+/* line 37, compass/sass/styles.scss */
+#search-form {
+  width: 70%;
+}
+
+/* line 40, compass/sass/styles.scss */
+.account-box {
+  margin-top: 35px;
+}
+
+/* line 43, compass/sass/styles.scss */
+#video-links {
+  padding-left: 0 !important;
+}
+
+/* line 46, compass/sass/styles.scss */
+#video-links li {
+  list-style: none;
+  float: left;
+  text-align: left;
+  padding-right: 15px;
+}
+
+/* line 52, compass/sass/styles.scss */
+#video-links li a {
+  color: black;
+}
+
+/* line 55, compass/sass/styles.scss */
+#login {
+  margin-top: 35px;
+  margin-right: 10px;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+
+/* line 62, compass/sass/styles.scss */
+#favorites ul li {
+  list-style: none;
+  float: right;
+  margin-right: 10px;
+}
+
+/* line 67, compass/sass/styles.scss */
+#favorites ul li a {
+  color: black;
+}
+
+/* line 71, compass/sass/styles.scss */
 #modal-image img {
-	width: 100%;
+  width: 100%;
 }
-.video-well{
-	background: #ebebeb;
+
+/* line 74, compass/sass/styles.scss */
+.video-well {
+  background: #ebebeb;
 }
-#video-holder{
-	float: left;
-	width:56%;
-	padding:2%;
+
+/* line 77, compass/sass/styles.scss */
+#video-holder {
+  float: left;
+  width: 56%;
+  padding: 2%;
 }
-.suggested-videos-inner-wrapper{
-	margin-top: 25px;
+
+/* line 82, compass/sass/styles.scss */
+.suggested-videos-inner-wrapper {
+  margin-top: 25px;
 }
-.suggested-videos{
-	float:left;
-	width:15%;
+
+/* line 85, compass/sass/styles.scss */
+.suggested-videos {
+  float: left;
+  width: 15%;
 }
-.suggested-videos img{
-	width: 100%;
+
+/* line 89, compass/sass/styles.scss */
+.suggested-videos img {
+  width: 100%;
 }
-.summary{
-	float:left;
-	width: 29%
+
+/* line 92, compass/sass/styles.scss */
+.summary {
+  float: left;
+  width: 29%;
 }
-.summary p{
-	margin-bottom: 0;
+
+/* line 96, compass/sass/styles.scss */
+.summary p {
+  margin-bottom: 0;
 }
